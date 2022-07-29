@@ -1,0 +1,255 @@
+.cart {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    height: 535px;
+}
+
+.cart-empty {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 0px 0px 5px 5px;
+    height: 223px;
+}
+
+@media(min-width:946px) {
+    .cart {
+        margin-top: -195px;
+    }
+
+    .cart-empty {
+        margin-top: -360px;
+    }
+}
+
+.cart-title-div {
+    width: 310px;
+    height: 65px;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: -15px;
+}
+
+.cart-title-div-empty {
+    width: 310px;
+    height: 65px;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.title-cart {
+    width: 195.71px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20.93px;
+}
+
+.empty {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    height: 40px;
+    margin-top: 45px;
+    margin-bottom: -20px;
+}
+
+.add {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #828282;
+    height: 24px;
+}
+
+.cart-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 26px;
+    overflow: scroll;
+    width: 300px;
+    height: 300px;
+}
+
+.cart-li {
+    width: 300px;
+    height: 80px;
+    margin-left: -20px;
+}
+
+.product-content {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cart-img {
+    width: 80px;
+    height: 80px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+}
+
+.cart-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 253px;
+    height: 54px;
+    margin-top: -26px;
+}
+
+.remove {
+    color: #BDBDBD;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+@media(min-width:946px) {
+    .remove {
+        background: none;
+        margin-bottom: -50px;
+        margin-left: 160px;
+    }
+}
+
+.cart-product-name {
+    color: #333333;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    width: 170px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    margin-left: 10px;
+}
+
+
+@media(min-width:946px) {
+    .cart-product-name {
+        margin-top: 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 14.5ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.cart-category {
+    color: #828282;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+@media(min-width:946px) {
+    .cart-category {
+        margin-top: 50px;
+    }
+}
+
+.line {
+    background-color: #E0E0E0;
+    color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 2px;
+}
+
+.total-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 104px;
+    margin-top: 10px;
+}
+
+.total-section {
+    margin-top: -10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+
+.total {
+    color: #333333;
+    width: 49px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.value {
+    color: #828282;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    width: 64px;
+    height: 24px;
+}
+
+.remove-all {
+    background: #E0E0E0;
+    color: #828282;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    width: 300px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}

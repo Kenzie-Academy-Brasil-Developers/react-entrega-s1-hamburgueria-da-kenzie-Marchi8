@@ -1,0 +1,25 @@
+.products-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100vw;
+    height: 361px;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
+
+@media(min-width:946px) {
+    .products-ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 65.3vw;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin-top: 32px;
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+}

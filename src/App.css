@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-container {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width:946px) {
+  .content-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+}
+
+.App-header {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 139px;
+}
+
+@media(min-width:946px) {
+  .App-header {
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158.94px;
+  height: 36.83px;
+  gap: 5px;
+}
+
+@media(min-width:946px) {
+  .burger-logo {
+    margin-left: 150px;
+  }
+}
+
+.burger-logo {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+.kenzie-logo {
+  color: #EB5757;
+  font-weight: 650;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.input-div {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.input {
+  width: 300px;
+  height: 60px;
+  border: 2px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 0px 10px 0px 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E0E0;
+}
+
+@media(min-width:946px) {
+  .input {
+    width: 365px;
+    height: 60px;
+    margin-left: 760px;
+  }
+}
+
+.input-button {
+  margin-left: -96px;
+  position: relative;
+  right: 10px;
+  width: 107px;
+  height: 40px;
+  background: #27AE60;
+  border: 2px solid #27AE60;
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media(min-width:946px) {
+  .input-button {
+    margin-left: -105px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
